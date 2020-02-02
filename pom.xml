@@ -8,6 +8,15 @@
   <artifactId>SimpleInMemoryCache</artifactId>
   <version>1.0-SNAPSHOT</version>
 
+  <description>Simple in-memory Cache implementation</description>
+
+  <developers>
+    <developer>
+      <name>Andrew Teterin</name>
+      <email>knoftd@gmail.com</email>
+    </developer>
+  </developers>
+
   <properties>
     <java.version>8</java.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
