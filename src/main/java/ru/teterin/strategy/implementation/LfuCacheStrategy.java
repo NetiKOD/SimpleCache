@@ -44,7 +44,7 @@ public class LfuCacheStrategy<K> implements CacheStrategy<K> {
     public K getNextToRemoveElement(Set<CacheKey<K>> cacheKeys) {
         return cacheKeys.stream()
                 .min(Comparator.comparingInt(CacheKey::getCriteria))
-                .orElseThrow(() -> new CacheException(""))
+                .orElseThrow(() -> new CacheException("Not found item to delete"))
                 .getKey();
     }
 }
