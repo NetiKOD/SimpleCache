@@ -9,3 +9,4 @@ Please provide an example of usage of the cache as a unit test(s).
 
 ## Possible improvements:
 1. Change the work with the CacheKey class, to reduce the generation of unnecessary instances
+2. The increase in the number of tests
